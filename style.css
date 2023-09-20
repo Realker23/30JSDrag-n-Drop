@@ -1,0 +1,43 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins' , sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    /* width: 100%; */
+    height: 100svh;
+    background: #053B50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left,#right{
+    width: 30rem;
+    min-height: 40rem;
+    color: #EEEEEE;
+    border: .2rem dashed #EEEEEE;
+    margin: 0rem 2rem;
+    
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    height: 6rem;
+    margin: 3rem;
+    cursor: grab;
+    background: #E25E3E;
+}
+.list img{
+    width: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 2rem;
+}
